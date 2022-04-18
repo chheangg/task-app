@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  display: flex;
+}
+
+.main-container {
+  display: grid;
+  padding: 0rem 1rem;
+  margin: 1rem auto;
+  width: 30vw;
+  background-color: #e5e5e5;
+  border-radius: 10px;
+  box-shadow: 0 4px 5px -4px black;
+}
+
+.submit-container {
+  justify-self: center;
+  padding: 1rem 0;
+}
+
+form input, button {
+  border: 0.5px solid black;
+  padding: 6px 12px;
+  font-size: 1rem;
+}
+
+form button {
+  cursor: pointer;
+  font-weight: bold;
+  border-left: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #f1f5f9;
+}
+
+form input {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.line {
+  display: block;
+  height: 0.5px;
+  width: 100%;
+  background-color: gray;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+.task-list {
+  background-color: white;
+  display: grid;
+  align-items: center;
+  margin-bottom: 1rem;
+  min-height: 3rem;
+}
+
+.task-box {
+  padding: 1rem 1rem;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-box p {
+  padding: 0;
+  margin: 0;
+}
+
+.task-box button {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.utility > * {
+  margin: 0 0.25rem;
+}
+
+.edit {
+  color: orange;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.delete {
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.confirm {
+  color: green;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.task-box:nth-of-type(even) {
+  background-color: #f1f5f9;
+}
