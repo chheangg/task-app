@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+#   Task App
+This single webpage was created with ReactJS and some loves! its features are listing objects, and modification of those list. You can add your tasks with its title and description and you can make changes to it later on.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+this was also for a lesson on The Odin Project.
+
 
 ## Available Scripts
 
